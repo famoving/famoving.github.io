@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rates/Reservations</title>
+   <link rel="stylesheet" href="styles/fasyles.css"/>
+</head>
+
+<body>
+    <div class="navigation">
+            <div class="banner">
+            <h1>Family Affairs Movers</h1>
+            <h2>"You Get the Truck, We Load It Up!"</h2>
+        </div>
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="supplyorder.html">Supply Ordering</a></li>
+                <li><a href="ratesreserv.html">Rates/Reserve Now!</a></li>
+                <li><a href="packing.html">Packing Tips</a></li>
+                <li><a href="lifting.html">Lifting Tips</a></li>
+                <li><a href="movingtips.html">Moving Tips</a></li>
+                <li><a href="#">Order Confirmation</a></li>
+            </ul>
+        </nav>
+       
+    </div>
+             
+   <div class="content">
+    <div class="services">
+        <h3>Services</h3>
+        <p>Just got out of surgery? Furniture a little heavier than you remember? Not enough time to pack? Truck a little too big for comfort? No Problem! We are more than happy to help you with any of these problems. From heavy lifting to packing and even driving, we got you covered. </p>
+    </div>
+
+    <div class="rates">
+        <h3>Rates</h3>
+        <table>
+            <caption>Heavy Lifting</caption>
+            <tr>
+                <th>Movers</th>
+                <th>Hourly Rate</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$85</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>$110</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>Packing</caption>
+            <tr>
+                <th>Packers</th>
+                <th>Hourly Rate</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>$60</td>
+            </tr>
+        </table>
+
+        <h3>Driving Assistance</h3>
+        <p>We understand that box trucks can be a little intimidating for most people. For this reason, we will drive it for you. The cost for this service is 0.25/per mile</p>
+
+    </div>
+
+    <div class="reserve">
+        <h3>Reserve Your Move</h3>
+        <form action="mailto:antwantelford@gmail.com" method="post" enctype="text/plain">
+            <div>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="Customer">
+            </div>
+            <div>
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="Address">
+            </div>
+            <div>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="Phone">
+            </div>
+            <div>
+                <label for="mail">Email:</label><br>
+                <input type="email" id="mail" name="Email">
+            </div>
+            <div>
+                <label for="day">Move Date:</label><br>
+                <input type="date" id="day" name="Movedate">
+            </div>
+            <div>
+                <label for="time">Start Time:</label><br>
+                <input type="time" id="time" name="Starttime">
+            </div>
+            <div>
+                <label for="movers">Movers Needed:</label>
+                <select id="movers" name="movers">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <label for="hours">Hours Needed:</label>
+            <select id="hours" name="Hours">
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+            </select>
+            <br>
+            <br>
+            <div>
+                Need help packing?
+                <input type="radio" name="pack" value="Yes">Yes
+                <input type="radio" name="pack" value="No">No
+            </div>
+            <div>
+                <label for="packers">Packers Needed:</label>
+                <select id="packers" name="Packer">
+                    <option selected>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div>
+                <label for="phours">Pack Hours Needed:</label>
+                <select id="phours" name="Pkhours">
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+            </div>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+    </div>
+    <footer>Family Affairs Moving &copy;2018</footer>
+</body>
+
+</html>
