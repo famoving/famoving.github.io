@@ -26,20 +26,20 @@ nav li a:hover {
 }
 nav{
     position: sticky;
-    width:100%;
+    
     margin-bottom: 10px;
 }
 div.banner{
     position: relative;
     top: 0;
     border: 3px solid rgb(115,0,10);
-    background-image:url("../images/columbia.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("../images/columbia.jpg");
     background-size:cover;
     width: 100%;
-    height: 300px;
+    height: 25%;
     text-align: center;
-    font-size: 2em;
-    color: rgb(115,0,10);
+    font-size: 1.5em;
+    color: white;
 }
 h1{
     margin-top: 5%;
@@ -82,7 +82,7 @@ footer{
         @media screen and (max-width: 750px){
             li{
                 float: none;
-                display:block;
-                width:100%;
+                display: block;
+                width: 100%;
             }
         }
