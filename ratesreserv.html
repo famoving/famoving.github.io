@@ -10,32 +10,30 @@
 </head>
 
 <body>
-    <div class="navigation">
-            <div class="banner">
+   <div class="bg-pic">
+        <div class="bg-pictxt">
             <h1>Family Affairs Movers</h1>
-            <h2>"You Get the Truck, We Load It Up!"</h2>
+            <p>You get the truck, we load it up</p>
         </div>
-            <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="supplyorder.html">Supply Ordering</a></li>
-                <li><a href="ratesreserv.html">Rates/Reserve Now!</a></li>
-                <li><a href="packing.html">Packing Tips</a></li>
-                <li><a href="lifting.html">Lifting Tips</a></li>
-                <li><a href="movingtips.html">Moving Tips</a></li>
-                <li><a href="#">Order Confirmation</a></li>
-            </ul>
-        </nav>
-       
     </div>
-             
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="supplyorder.html">Supply Ordering</a>
+        <a href="ratesreserv.html">Rates/Reserve Now!</a>
+        <a href="packing.html">Packing Tips</a>
+        <a href="lifting.html">Lifting Tips</a>
+        <a href="movingtips.html">Moving Tips</a>
+    </div>
+     
+             <main>        
    <div class="content">
     <div class="services">
         <h3>Services</h3>
         <p>Just got out of surgery? Furniture a little heavier than you remember? Not enough time to pack? Truck a little too big for comfort? No Problem! We are more than happy to help you with any of these problems. From heavy lifting to packing and even driving, we got you covered. </p>
     </div>
 
-    <div class="rates">
+    <div class="rates" id="rates">
         <h3>Rates</h3>
         <table>
             <caption>Heavy Lifting</caption>
@@ -90,7 +88,7 @@
 
     </div>
 
-    <div class="reserve">
+    <div class="reserve" id="reserve">
         <h3>Reserve Your Move</h3>
         <form action="mailto:antwantelford@gmail.com" method="post" enctype="text/plain">
             <div>
@@ -141,7 +139,7 @@
             <div>
                 Need help packing?
                 <input type="radio" name="pack" value="Yes">Yes
-                <input type="radio" name="pack" value="No">No
+                <input type="radio" name="pack" value="No" checked>No
             </div>
             <div>
                 <label for="packers">Packers Needed:</label>
@@ -171,6 +169,7 @@
         </form>
     </div>
     </div>
+    </main>
     <footer>Family Affairs Moving &copy;2018</footer>
 </body>
 
